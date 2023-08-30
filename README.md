@@ -12,7 +12,10 @@ curl -sLkO https://is.gd/nomachineMATE ; bash nomachineMATE
 
 curl -sLkO https://is.gd/nomachinexfce4 ; bash nomachinexfce4
 
+# install-Git
 
+sudo apt-get update
+sudo apt-get install git-all
 
 # install-selenium-and-ect
 
