@@ -16,7 +16,9 @@ curl -sLkO https://is.gd/nomachinexfce4 ; bash nomachinexfce4
 
 sudo apt-get update
 
-sudo apt-get install git-all -y
+sudo apt-get install git -y
+
+git clone https://github.com/ophigeni/selenium-ophigeni
 
 
 # install-selenium-and-ect
