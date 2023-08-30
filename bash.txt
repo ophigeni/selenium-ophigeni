@@ -1,0 +1,15 @@
+wget -nc https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo apt update
+
+sudo apt install -f ./google-chrome-stable_current_amd64.deb -y
+
+mkdir tests && cd tests
+
+apt-get install python3-venv -y
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install selenium webdriver-manager
