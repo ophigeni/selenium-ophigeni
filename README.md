@@ -16,7 +16,7 @@ curl -sLkO https://is.gd/nomachinexfce4 ; bash nomachinexfce4
 
 sudo apt-get update
 
-sudo apt-get install git-all
+sudo apt-get install git-all -y
 
 
 # install-selenium-and-ect
