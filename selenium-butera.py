@@ -31,7 +31,7 @@ def watch_link(url):
         driver.find_element_by_xpath('//*[@id="shorts-inner-container"]').click()
     except Exception as e:
         ActionChains(driver).send_keys("k").perform()
-    time.sleep(15)
+    time.sleep(10)
 
 
 
