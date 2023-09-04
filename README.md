@@ -1,5 +1,7 @@
 # install-docker
 
+docker run -p 6080:80 -v /dev/shm:/dev/shm ophigeni/ubuntu-anime:latest
+
 docker run -p 6080:80 -v /dev/shm:/dev/shm ophigeni/ubuntu:latest
 
 docker run -p 6080:80 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
